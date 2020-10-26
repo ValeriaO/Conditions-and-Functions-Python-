@@ -1,0 +1,11 @@
+def check_if_long(length):
+    if length < 120:
+        print('Short film.')
+    
+    else: 
+        print('Long film.')
+        
+print('The Artist')
+check_if_long(96)
+print('Gladiator')
+check_if_long(155)
