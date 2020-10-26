@@ -1,0 +1,12 @@
+# Saving the conversion rate
+
+euros_per_dollar = 0.90
+
+def print_budget_in_euros(dollars):
+    euros = dollars * 0.90
+    print('Budget: {:.2f} mil. €'.format(euros))
+print('Titanic') 
+print_budget_in_euros(200.0) 
+print() 
+print('Gladiator') 
+print_budget_in_euros(103.0)
